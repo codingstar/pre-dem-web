@@ -27,4 +27,4 @@ rm -rf ./dist
 git add --all .
 git commit -m "build"
 git tag -a $tagName -m "built by script"
-git push origin $tagName
+git push mine $tagName
